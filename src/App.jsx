@@ -5,16 +5,31 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-const App = () => {
+function App() {
   return (
-    <div className="App scroll-smooth">
+    <div className="App font-sans text-gray-900">
+      {/* Hero Section */}
       <Hero />
-      <About />
-      <Projects />
-      <Contact />
+
+      {/* About Section */}
+      <section id="about">
+        <About />
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects">
+        <Projects />
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact">
+        <Contact />
+      </section>
+
+      {/* Footer */}
       <Footer />
     </div>
   );
-};
+}
 
 export default App;
