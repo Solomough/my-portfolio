@@ -54,4 +54,5 @@ Projects are **upcoming**, but this portfolio reflects my **readiness to build r
 
 ---
 
-©{new Date().getFullYear()} Solomon Moughkaa Zahemen. All Rights Reserved.
+© 2025
+Solomon Moughkaa Zahemen. All Rights Reserved.
